@@ -1,0 +1,88 @@
+body {
+	color: rgb(10, 10, 10);
+	background-color: #E5F6DF;
+
+	background-image: url (images/background.jpg);
+
+    font-family: Courier, monospace;
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-weight: normal ;
+
+    color: rgb(30, 30, 30);
+    text-align:center ;
+    text-decoration: none;
+
+}
+
+
+h1 { color: #0F580A; }
+
+h2, h3 {
+
+	color: greenyellow;
+	font-weight: bold;
+	font-size: 20px;
+}
+a { color: red; 
+    transition: O.3s ease;}
+
+a:hover 
+
+{ color: purple;}
+
+img { width: 300px;}
+
+.img-circle { border-radius: 50% ; }
+.img-bordered { border: 10px skyblue;}
+
+
+#main { box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.9); }
+
+div {
+	background: white;
+	padding: 40px;
+	margin: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+div
+{ 
+
+width: 300 px;
+margin: 0 auto;
+
+}
+
+.container {
+	width: 1200px;
+	margin: 100px auto;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+.text-center{
+	text-align: center ;
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30 px rgba(0, 0, 0, 1.0) ;
+	padding: 30px;
+}
+
+.card-white : hover
+.card-white {  0.3s }
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline > li {
+	display: inline;
+	padding: 20px 20px;
+}
